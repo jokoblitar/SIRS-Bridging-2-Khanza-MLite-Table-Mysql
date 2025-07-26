@@ -1,0 +1,28 @@
+[2025-07-25 02:54:21] URL: https://sirs.kemkes.go.id/fo/index.php/Referensi/tempat_tidur
+Response Code: 200
+Response: HTTP/1.1 200 OK
+Date: Fri, 25 Jul 2025 02:54:21 GMT
+Server: Apache/2.4.58 (Ubuntu)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=2dh23vacca7gpvu3gokcaga9hb; path=/
+Content-Type: application/json
+Transfer-Encoding: chunked
+
+{"tempat_tidur":[{"status":"200","message":"{\"status\":\"false\",\"response\":\"Timestamp expired\"}"}]}
+
+[2025-07-25 02:54:21] URL: https://sirs.kemkes.go.id/fo/index.php/Fasyankes
+Response Code: 200
+Response: HTTP/1.1 200 OK
+Date: Fri, 25 Jul 2025 02:54:21 GMT
+Server: Apache/2.4.58 (Ubuntu)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=3lhljutakj4uototsrcuirmgq3; path=/
+Content-Type: application/json
+Transfer-Encoding: chunked
+
+{"fasyankes":[{"status":"200","message":"{\"status\":\"false\",\"response\":\"Timestamp expired\"}"}]}
+
