@@ -4,8 +4,8 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$id = "3572021"; // kode rs dari kemenkes
-$pass = "S!rs2025!!";
+$id = "1234567"; // kode rs dari kemenkes
+$pass = "S!pass25!!";
 
 // Generate proper ISO 8601 timestamp (SIRS API requires this format)
 $dt = new DateTime(null, new DateTimeZone("UTC"));
