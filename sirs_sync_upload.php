@@ -8,8 +8,8 @@ header("Pragma: no-cache");
 header('Content-Type: text/plain'); // Mengubah Content-Type agar output lebih mudah dibaca di browser
 
 // Kredensial API SIRS-Kemkes
-$rs_id = "3572021"; // Kode RS dari Kemenkes
-$rs_pass = "S!rs2025!!"; // Password API
+$rs_id = "1234567"; // Kode RS dari Kemenkes
+$rs_pass = "S!pass25!!"; // Password API
 
 // URL Endpoint API SIRS-Kemkes untuk update tempat tidur
 $url = "https://sirs.kemkes.go.id/fo/index.php/Fasyankes";
