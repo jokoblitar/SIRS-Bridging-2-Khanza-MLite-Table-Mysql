@@ -1,10 +1,10 @@
 <?php
 
 // Database connection parameters
-$dbHost = '192.168.168.8';
+$dbHost = 'localhost';
 $dbName = 'sik';
-$dbUser = 'medik1';
-$dbPass = 'mk1';
+$dbUser = 'user';
+$dbPass = 'pass';
 
 try {
     $pdo = new PDO("mysql:host=$dbHost;dbname=$dbName;charset=utf8mb4", $dbUser, $dbPass);
@@ -14,8 +14,8 @@ try {
     die("Koneksi database gagal: " . $e->getMessage());
 }
 
-$id = "3572021"; // Kode RS dari Kemenkes
-$pass = "S!rs2025!!";
+$id = "1234567"; // Kode RS dari Kemenkes
+$pass = "S!pass25!!";  // ganti dengan pass SIRS
 
 // Ambil Timestamp (UTC)
 $dt = new DateTime(null, new DateTimeZone("UTC"));
